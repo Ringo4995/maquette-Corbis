@@ -1,0 +1,450 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(/font/Roboto-Black.ttf);
+}
+
+*{
+    margin: 0; padding: 0; 
+}
+
+header, footer, .bapag{
+    font-family: 'Roboto-Black';
+}
+
+.fond{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.fond .logo{
+    width: 41%;
+    margin-left: 0.5%;
+}
+
+.fond .logo img{
+    width: 33%;
+}
+
+.fond .drapeau{
+    width: 8%;
+    margin-left: 40.5%;
+    padding-bottom: 0.5%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.fond .login{
+    width: 10%;
+    font-size: 150%;
+    margin-bottom: 1%;
+}
+
+.fond .coulissante{
+    width: 100%;
+    margin: 0 0.5% 0 0.5%;
+}
+
+.fond .coulissante img{
+    width: 100%;
+}
+
+.navi{
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    width: 100%;
+}
+
+.navi a{
+    width: 18%;
+    font-size: 300%;
+    margin: 2% 0% 0 1%;
+}
+
+.navi .acc{
+    margin-left: 7%;
+}
+
+.recherche{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: solid 1px;
+    align-items: center;
+    border-radius: 100px;
+    border-color: lightgray;
+}
+
+.recherche .gg, .recherche .gc, .recherche .dc, .recherche .dd{
+    width: 18%;
+    font-size: 120%;
+    height: 2%;
+    padding-left: 4%;
+}
+
+.recherche input{
+    padding: 1%;
+}
+
+.selec{
+    font-size: 200%;
+    margin: 20% 0% 1% 1%;
+}
+
+.tourniquet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.gau{
+    width: 10%;
+}
+
+.tourniquet .firster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: #ccccff;
+    padding: 2% 0 2% 3.5%;
+    margin-right: 4%;
+}
+
+.tourniquet .firster .haut .mm{
+    width: 80%;
+}
+
+.tourniquet .firster .un{
+    width: 5%;
+}
+
+.tourniquet .firster .haut .mmchoix{
+    width: 80%;
+    font-size: 250%;
+    text-align: center;
+}
+
+.tourniquet .firster .jour .mmnuit{
+    width: 80%;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+.tourniquet .firster .Lorem{
+    width: 80%;
+    margin-right: 15%;
+}
+
+.tourniquet .secondo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: #ccccff;
+    padding: 2% 0 2% 3.5%;
+    margin-right: 4%;
+}
+
+.tourniquet .secondo .hautdeux .arene{
+    width: 80%;
+}
+
+.tourniquet .secondo .jourdeux .deux{
+    width: 5%;
+}
+
+.tourniquet .secondo .hautdeux .nmchoix{
+    width: 80%;
+    font-size: 250%;
+    text-align: center;
+}
+
+.tourniquet .secondo .jourdeux .nmnuit{
+    width: 80%;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+.tourniquet .secondo .Lorem{
+    width: 80%;
+    margin-right: 15%;
+}
+
+.tourniquet .third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: #ccccff;
+    padding: 2% 0 2% 3.5%;
+}
+
+.tourniquet .third .hauttrois .oliv{
+    width: 80%;
+}
+
+.tourniquet .third .jourtrois .trois{
+    width: 5%;
+}
+
+.tourniquet .third .hauttrois .olichoix{
+    width: 80%;
+    font-size: 250%;
+    text-align: center;
+}
+
+.tourniquet .third .jourtrois .olinuit{
+    width: 80%;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+.tourniquet .third .Lorem{
+    width: 80%;
+    margin-right: 15%;
+}
+
+.tourniquet .droi{
+    width: 12%;
+    height: 20vh;
+    margin-top: 9%;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.menu .bigcarre, .menu .bigcarre2{
+    width: 48%;
+}
+
+.menu .bigcarre p, .menu .bigcarre2 p{
+    font-size: 250%;
+    margin-left: 3%;
+}
+
+.menu .bigcarre{
+    margin-right: 1.5%;
+}
+
+.menu .bigcarre .lesplus, .menu .bigcarre2 .lesbons{
+    width: 100%;
+    background-color: #ccccff;
+}
+
+.menu .bigcarre .lesplus .sitesgauche .pht, .menu .bigcarre2 .lesbons .sitesdroite .pht{
+    width: 35%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.menu .bigcarre .lesplus .sitesgauche .pht img, .menu .bigcarre2 .lesbons .sitesdroite .pht img{
+    width: 100%;
+}
+
+.menu .bigcarre .lesplus .sitesgauche, .menu .bigcarre2 .lesbons .sitesdroite{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu .bigcarre .lesplus .sitesgauche .mini, .menu .bigcarre2 .lesbons .sitesdroite .mini{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 59%;
+    margin-bottom: 8%;
+}
+
+.menu .bigcarre .lesplus .sitesgauche .mini .nds, .menu .bigcarre2 .lesbons .sitesdroite .mini .nds{
+    font-size: 250%;
+}
+
+.menu .bigcarre .lesplus .sitesgauche .lorem, .menu .bigcarre2 .lesbons .sitesdroite .mini .lorem{
+    font-size: 130%;
+    height: 3em;
+    margin-top: 2%;
+}
+
+.menu .bigcarre .lesplus .sitesgauche .info, .menu .bigcarre2 .lesbons .sitesdroite .mini .info{
+    width: 50%;
+}
+
+.menu .bigcarre .lesplus .sitesgauche .info img, .menu .bigcarre2 .lesbons .sitesdroite .mini .info img{
+    width: 8%;
+}
+
+.menu .bigcarre .lesplus .sitesgauche .mini .nomore, .menu .bigcarre2 .lesbons .sitesdroite .mini .nomore{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.5%;
+}
+
+.menu .bigcarre .lesplus .sitesgauche .mini .nomore .prix, .menu .bigcarre2 .lesbons .sitesdroite .mini .nomore .prix{
+    width: 13%;
+    font-size: 180%;
+    background-color: coral;
+    padding: 1.5% 6% 0 8%;
+    margin: 0 0 0 15%;
+    text-align: center;
+}
+
+.histoire{
+    width: 100%;
+    height: 500px;
+}
+
+.histoire img{
+    position: relative;
+    width: 99%;
+    margin: 0 0.5% 0 0.5%;
+}
+
+.histoire a{
+    position: absolute;
+    left: 35%;
+    top: 405vh;
+    font-size: 300%;
+    color: white;
+    background-color: black;
+    opacity: 0.75;
+    border-radius: 5px;
+    padding: 1% 9% 1% 9%;
+}
+
+.bapag{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.bapag .joinus{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bapag .joinus .amog{
+    font-size: 160%; margin-left: 13%;
+}
+
+.bapag .joinus .fb, .bapag .joinus .twt, .bapag .joinus .ist{
+    width: 23%; margin-top: 2%;
+}
+
+.bapag .joinus a{
+    margin-left: 10%;
+    font-size: 110%;
+}
+
+.bapag .joinus img{
+    width: 30%;
+}
+
+.bapag .explo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.bapag .explo .navigasion{
+    font-size: 160%;
+}
+
+.bapag .explo .shiji{
+    font-size: 110%;
+    margin-top: 10%;
+}
+
+.bapag .help{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    margin-left: 14%;
+}
+
+.bapag .help .aide{
+    font-size: 160%;
+}
+
+.bapag .help .shinji{
+    font-size: 110%;
+    margin-top: 10%;
+}
+
+.bapag .propos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    margin-left: 14%;
+}
+
+.bapag .propos .corvus{
+    font-size: 160%;
+}
+
+.bapag .propos .linny{
+    font-size: 110%;
+    margin-top: 10%;
+}
+
+.bapag .propos .azel{
+    font-size: 110%;
+}
+
+footer .partenaire{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    margin-left: 90%;
+    margin-top: 15%;
+}
+
+footer .partenaire .spart{
+    width: 80%;
+}
+
+footer .partenaire .spart img{
+    width: 30%;
+}
+
+footer .partenaire .spart{
+    font-size: 140%;
+}
+
+footer .payement .pay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: 38%;
+}
+
+footer .payement .pay img{
+    width: 6%;
+}
